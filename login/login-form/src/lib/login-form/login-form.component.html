@@ -1,0 +1,16 @@
+<div class="login-app">
+    <form action="" class="login-form" (ngSubmit)="login()">
+    <h1>Login Form</h1>
+        <label [htmlFor]="'login'">Username:
+            <input type="text" name="username" [(ngModel)]="username" />
+        </label><br>
+        <label [htmlFor]="'login'">Password:
+            <input type="text" name="password" [(ngModel)]="password" />
+        </label><br>
+
+        <button type="submit"> Submit</button>
+
+    </form>
+    <div *ngIf="isLoggedIn$ | async">User is logged in</div>
+    <div *ngIf="(isLoggedIn$ | async) === false">User is not logged in</div>
+</div>

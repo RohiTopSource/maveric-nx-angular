@@ -1,0 +1,9 @@
+{
+  "name": "refer-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "refer-e2e/src",
+  "implicitDependencies": ["refer"],
+  "// targets": "to see all targets run: nx show project refer-e2e --web",
+  "targets": {}
+}

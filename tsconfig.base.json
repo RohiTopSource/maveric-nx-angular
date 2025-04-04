@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-monorepo/data-access-user": [
+        "shared/data-access-user/src/index.ts"
+      ],
+      "@angular-monorepo/login-form": ["login/login-form/src/index.ts"],
+      "analytics/Routes": ["analytics/src/app/remote-entry/entry.routes.ts"],
+      "login/Routes": ["login/src/app/remote-entry/entry.routes.ts"],
+      "refer/Routes": ["refer/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

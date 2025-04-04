@@ -1,0 +1,35 @@
+header {
+    background: hsl(214, 62%, 21%);;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: start;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background 0.3s;
+  }
+  
+  .menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
